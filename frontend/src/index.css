@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
