@@ -54,7 +54,7 @@ const ProductDetail = () => {
             <div className="container-fluid shop py-5">
                 <div className="container py-5">
                     <div className="row g-4">
-                        {/* Sidebar - Reusing Shop sidebar parts or keeping it simple */}
+
                         <div className="col-lg-5 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="product-categories mb-4">
                                 <h4>Products Categories</h4>
@@ -66,7 +66,7 @@ const ProductDetail = () => {
                             </div>
                             <div className="featured-product mb-4">
                                 <h4 className="mb-3">Featured products</h4>
-                                {/* Placeholder */}
+
                                 <div className="featured-product-item d-flex align-items-center mb-3">
                                     <div className="rounded me-4" style={{ width: '100px', height: '100px' }}>
                                         <img src="/img/product-3.png" className="img-fluid rounded" alt="Featured" />
@@ -79,7 +79,7 @@ const ProductDetail = () => {
                             </div>
                         </div>
 
-                        {/* Main Content */}
+
                         <div className="col-lg-7 col-xl-9 wow fadeInUp" data-wow-delay="0.1s">
                             <div className="row g-4 single-product">
                                 <div className="col-xl-6">

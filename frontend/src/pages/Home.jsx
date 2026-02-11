@@ -34,7 +34,7 @@ const Home = () => {
     useEffect(() => {
         if (!loading && window.$ && window.$.fn.owlCarousel) {
             window.$(".owl-carousel").owlCarousel('destroy');
-
+ 
             window.$(".header-carousel").owlCarousel({
                 autoplay: true,
                 smartSpeed: 1500,
